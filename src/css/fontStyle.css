@@ -1,0 +1,20 @@
+
+/* تعریف فونت وزیرمتن */
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('/src/fonts/Vazirmatn-FD-NL-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('/src/fonts/Vazirmatn-FD-NL-Regular.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* تنظیم برای کل صفحه (اختیاری) */
+body {
+  font-family: 'Vazirmatn', sans-serif;
+}

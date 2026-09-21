@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind__project</title>
+    <link rel="stylesheet" href="/src/css/output.css">
+    <link rel="stylesheet" href="/src/css/input.css">
+
+    <link rel="stylesheet" href="/src/css/fontStyle.css">
+
+</head>
+<body>
+     <!-------hero section------->
+    <section class="relative h-[88hv] bg-amber-700">
+        <!--Header-->
+        <header class="relative z-20 top-0">
+            <div class="max-w-6xl px-3 pt-5 mx-auto h-14 flex items-center justify-between">
+                <!--logo-->
+                <a href="#" class="text-white       ">لوشا</a>
+                <!--mobile menu toggle-->
+                <input type="checkbox" id="toggle" class="peer hidden">
+                <label for="toggle" class="lg:hidden cursor-pointer p-2">
+                    <div class="space-y-1.5">
+                        <span class="block w-6 h-0.5 bg-white"></span>
+                        <span class="block w-6 h-0.5 bg-white"></span>
+                        <span class="block w-6 h-0.5 bg-white"></span>
+                    </div>
+                </label>
+                <!--navigation-->
+                <nav class="hidden peer-checked:flex absolute top-14 left-0 right-0 bg-[#99a9a7] border-white border-b-2 flex-col p-4 gap-6 items-center
+                lg:static lg:flex  lg:flex-row lg:bg-transparent lg:border-none ">
+                <a href="#home" class="text-white hover:text-green-800">home</a>
+                <a href="#aboutUs" class="text-white hover:text-green-800">about us</a>
+                <a href="#plans" class="text-white hover:text-green-800">plans</a>
+                <a href="#Footer" class="text-white hover:text-green-800">connect us</a>
+                <!--contant button-->
+                <a href="#" class="font-light hidden lg:inline border border-white px-5 py-1 rounded text-white  hover:bg-green-900 transition">call</a>
+            </nav>
+            </div>
+        </header>
+        <!--background image-->
+        <div class="absolute inset-0 ">
+            <img src="/src/images/pngtree.jpg" class="w-full        object-cover" alt="">
+        </div>
+        <!--hero content-->
+        <div class="relative z-10 felx flex-col items-center justify-center h-full text-center text-white px-4">
+            <h1 class="font-bold mb-6 ">تراوت گل ها مهمان خانه های شما</h1>
+            <p class="font-light mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Libero delectus consequatur, ipsam praesentium deleniti nihil error accusamus voluptas voluptatum aspernatur.</p>
+            <!--button wraper-->
+            <div class="flex flex-wrap justify-center items-center gap-4 mt-4 font-light">
+                <!--book now-->
+                <a href="#" class="bg-green-900 text-white px-8 py-3 rounded-2xl hover:bg-green-800 transition">مشاهده محصول</a>
+                <!--watch video-->
+                <a href="#" class="flex items-center border border-white px-8 py-3 rounded-2xl hover:bg-white hover:text-green-900">تماشای ویدیو</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
